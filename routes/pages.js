@@ -1,4 +1,4 @@
-const { home, about } = require('../controllers/PagesController');
+const { home, about } = require('../controllers/pagesController');
 
 module.exports = router => {
   router.get('/', home);
